@@ -42,13 +42,13 @@ The system is controlled by the `top.sv` module, which orchestrates sub-modules 
 ## 🛠️ Hardware & Tech Stack
 
 **Hardware:**
-* [cite_start]**FPGA Board:** Sipeed Tang Nano 4K (GW1NSR-LV4C)[cite: 4781].
-* [cite_start]**Input:** 2x Tactile Push Buttons (12x12mm)[cite: 4788].
-* [cite_start]**Output:** HDMI Monitor & 7-Segment Display[cite: 4801].
+* **FPGA Board:** Sipeed Tang Nano 4K (GW1NSR-LV4C).
+* **Input:** 2x Tactile Push Buttons (12x12mm).
+* **Output:** HDMI Monitor & 7-Segment Display.
 
 **Software & Tools:**
-* [cite_start]**Language:** SystemVerilog[cite: 4773].
-* [cite_start]**IDE:** Gowin® EDA, Visual Studio Code[cite: 4789].
+* **Language:** SystemVerilog.
+* [**IDE:** Gowin® EDA, Visual Studio Code.
 
 ---
 
