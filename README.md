@@ -34,7 +34,7 @@ This repository showcases the Verilog code and logic design. For the complete sy
 ### ⚙️ System Architecture
 [cite_start]The system is controlled by the `top.sv` module, which orchestrates sub-modules like `rhythm_game`, `hdmi`, and `decoder`.
 
-(https://drive.google.com/file/d/1zqdixQ1Lyyx2V7a14qBIH3ORRqOvj6V_/view?usp=sharing)
+![System Block Diagram](diagram.png)
 *(Figure 1: High-level System Block Diagram)*
 
 ---
