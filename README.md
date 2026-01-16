@@ -20,19 +20,19 @@ This repository showcases the Verilog code and logic design. For the complete sy
 ## 🔍 Project Overview
 
 ### 🎯 Objective
-[cite_start]To apply digital system design principles (CPE222) to create a functional rhythm game on an FPGA[cite: 4744, 4753]. [cite_start]The project focuses on handling real-time inputs, processing logic in parallel, and generating video signals (HDMI) directly from hardware logic without an Operating System[cite: 4768].
+To apply digital system design principles (CPE222) to create a functional rhythm game on an FPGA[cite: 4744, 4753]. [cite_start]The project focuses on handling real-time inputs, processing logic in parallel, and generating video signals (HDMI) directly from hardware logic without an Operating System[cite: 4768].
 
 ### 🎮 Key Features
-* [cite_start]**Gameplay:** 2-Lane rhythm game using push buttons[cite: 4841].
-* [cite_start]**Dynamic Difficulty:** Note speed increases automatically after every 15 successful hits[cite: 4841].
+* **Gameplay:** 2-Lane rhythm game using push buttons[cite: 4841].
+* **Dynamic Difficulty:** Note speed increases automatically after every 15 successful hits[cite: 4841].
 * **Display System:**
-    * [cite_start]**Main Screen:** 480p/720p HDMI signal generation via TMDS encoding[cite: 4783, 4844].
-    * [cite_start]**UI:** Simple note scrolling and hit zone detection[cite: 4841].
-    * [cite_start]**Status:** 7-Segment display shows the "Miss Count" in real-time[cite: 4842].
-* [cite_start]**Game Loop:** New Game -> Playing -> Game Over (triggered after 5 misses)[cite: 4819].
+    * **Main Screen:** 480p/720p HDMI signal generation via TMDS encoding[cite: 4783, 4844].
+    * **UI:** Simple note scrolling and hit zone detection[cite: 4841].
+    * **Status:** 7-Segment display shows the "Miss Count" in real-time[cite: 4842].
+* **Game Loop:** New Game -> Playing -> Game Over (triggered after 5 misses)[cite: 4819].
 
 ### ⚙️ System Architecture
-[cite_start]The system is controlled by the `top.sv` module, which orchestrates sub-modules like `rhythm_game`, `hdmi`, and `decoder`.
+The system is controlled by the `top.sv` module, which orchestrates sub-modules like `rhythm_game`, `hdmi`, and `decoder`.
 
 ![System Block Diagram](diagram.png)
 *(Figure 1: High-level System Block Diagram)*
@@ -53,8 +53,8 @@ This repository showcases the Verilog code and logic design. For the complete sy
 ---
 
 ## ⚠️ Challenges & Limitations
-* [cite_start]**Audio:** Due to Logic Unit limitations on the Tang Nano 4K, background music could not be implemented in this version.
-* [cite_start]**Controls:** Limited to 2 buttons/notes due to GPIO and resource constraints.
+* **Audio:** Due to Logic Unit limitations on the Tang Nano 4K, background music could not be implemented in this version.
+* **Controls:** Limited to 2 buttons/notes due to GPIO and resource constraints.
 
 ---
 
@@ -66,4 +66,4 @@ This repository showcases the Verilog code and logic design. For the complete sy
 * **Mr. Ratchanon Thiptamoon** (Hardware Management)
 * **Mr. Saksit Vetchawitthayakhlang** (Game Design)
 * **Mr. Thammapon Chaengphatee** (Game Design)
-[cite_start][cite: 4794-4796]
+
